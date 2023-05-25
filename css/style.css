@@ -179,6 +179,10 @@ main a {
 	display: inline-block;
 }
 
+.grid-box a {
+	margin-top: auto;
+}
+
 nav a:hover {
     color: white;
 }
@@ -240,6 +244,16 @@ main a:hover {
     margin: 2rem 0;
 }
 
+.grid-box p{
+	text-align: justify;
+}
+
+ul {
+	list-style: disc;
+	padding: .5rem;
+	font-size: 23px;
+}
+
 .project,
 .pharm {
     display: flex;
@@ -249,7 +263,7 @@ main a:hover {
     border: solid yellowgreen 0.4rem;
     background-color: inherit;
     padding: 1.5rem;
-    line-height: 2;
+    line-height: 1.2;
 }
 
 .title {
@@ -283,6 +297,10 @@ footer {
         padding: 1.5rem;
     }
 
+	nav a{
+		font-size: 16px;
+	}
+
     .images {
         background: url("../images/image_bcg-removebg-preview\ 1.png") no-repeat center;
         flex: 1;
@@ -296,6 +314,36 @@ footer {
         flex-direction: column;
     }
 
+	.details h1 {
+		padding: 2rem 0;
+		font-size: 2rem;
+	}
+	
+	footer p{
+		font-size: 22px;
+	}
+	
+	.details p{
+		font-size: 1.8rem ;
+	}
+
+	.title{
+		font-size: 30px;
+	}
+
+	.grid-box p{
+		font-size: 23px ;
+	}
+
+	.grid-box h3{
+		font-size: 27px;
+	}
+
+	.details a{
+		font-size: 1rem;
+	}
+	
+
     .grid-box {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -303,6 +351,7 @@ footer {
         gap: 3px;
         margin: 2rem 0;
     }
+
 
 }
 
@@ -317,6 +366,10 @@ footer {
         padding: 1.5rem;
     }
 
+	nav a{
+		font-size: 20px;
+	}
+
     main {
         flex: 1;
         padding: 0 1.5rem;
@@ -326,10 +379,40 @@ footer {
         display: flex;
         flex-direction: row;
     }
+	
+	.details {
+		flex: 1;
+	}
 
-    .details {
-        flex: 1;
-    }
+	.details h1 {
+		padding: 2rem 0;
+		font-size: 2.5rem;
+	}
+	
+	footer p{
+		font-size: 26px;
+	}
+
+	.details p{
+		font-size: 2.2rem ;
+	}
+
+	.title{
+		font-size: 35px;
+	}
+
+
+	.grid-box p{
+		font-size: 20px ;
+	}
+
+	.grid-box h3{
+		font-size: 30px;
+	}
+
+	.details a{
+		font-size: 1.5rem;
+	}
 
     .images {
         flex: 1;
@@ -345,5 +428,7 @@ footer {
         gap: 3px;
         margin: 2rem 0;
     }
+
+
 
 }
