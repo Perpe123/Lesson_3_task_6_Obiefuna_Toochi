@@ -164,7 +164,8 @@ header {
 nav a {
     color: #222;
     font-weight: 700;
-    margin-right: 0.8rem;
+    font-size: 12px;
+    margin-right: 0.2rem;
     text-decoration: none;
 }
 
